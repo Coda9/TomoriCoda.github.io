@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-06-01T02:47:12.811Z</updated>
+  <updated>2019-06-02T09:07:41.336Z</updated>
   <id>/</id>
   
   <author>
@@ -18,15 +18,21 @@
   
   <entry>
     <title>hello world</title>
-    <link href="/2019/05/30/posthello-world/"/>
-    <id>/2019/05/30/posthello-world/</id>
+    <link href="/2019/05/30/hello-world/"/>
+    <id>/2019/05/30/hello-world/</id>
     <published>2019-05-30T14:32:12.000Z</published>
-    <updated>2019-06-01T02:47:12.811Z</updated>
+    <updated>2019-06-02T09:07:41.336Z</updated>
     
     <summary type="html">
     
+      git+hexo
+    
     </summary>
     
+    
+      <category term="web" scheme="/tags/web/"/>
+    
+      <category term="悦读" scheme="/tags/%E6%82%A6%E8%AF%BB/"/>
     
   </entry>
   
