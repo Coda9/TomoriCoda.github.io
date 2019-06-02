@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">comment | 比宇宙更远的Tomori</title>
+  <title itemprop="name">comment | Coda</title>
   
     <link rel="shortcut icon" href="/images/shawu.ico">
   
@@ -36,8 +36,8 @@
   mashiro_option.site_name = "宇宙よりも遠いCoda";
   mashiro_option.author_name = "Coda";
   mashiro_option.site_url = "https://tomoricoda.github.io";
-  mashiro_option.v_appId = "";
-  mashiro_option.v_appKey = "";
+  mashiro_option.v_appId = "ubz450XtqTJRviGy8wIFr02c-gzGzoHsz";
+  mashiro_option.v_appKey = "s31Vqyjo9JE4slBhltRm9Mv1";
   mashiro_option.mathjax = "0";
   mashiro_option.qq_api_url = "https://api.mashiro.top/qqinfo/"; 
   mashiro_option.qq_avatar_api_url = "https://api.mashiro.top/qqinfo/";
@@ -202,6 +202,41 @@
                 
                   <ul class="sub-menu">
                     
+                      <li>
+                        <a href="/categories/技术/">
+                          <i class="fa fa-code" aria-hidden="true"></i>
+                          技术
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/生活/">
+                          <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                          生活
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/资源/">
+                          <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                          资源
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/随想/">
+                          <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                          随想
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/转载/">
+                          <i class="fa fa-book" aria-hidden="true"></i>
+                          转载
+                        </a>
+                      </li>
+                    
                   </ul>
                 
               </li>
@@ -269,6 +304,16 @@
               </li>
             
               <li>
+                <a href="/donate/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-heart faa-pulse" aria-hidden="true"></i>
+                    赞赏
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
                 <a href="/">
                   <span class="faa-parent animated-hover">
                     <i class="fa  fa-leaf faa-wrench" aria-hidden="true"></i>
@@ -303,6 +348,16 @@
                 
               </li>
             
+              <li>
+                <a href="/atom.xml">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-rss faa-pulse" aria-hidden="true"></i>
+                    RSS
+                  </span>
+                </a>
+                
+              </li>
+            
           </ul>
         </nav>
       </div>
@@ -318,7 +373,7 @@
       </div>
       <header class="pattern-header ">
         <h1 class="entry-title">
-        留言板（暂未开放）</h1>
+        留言板</h1>
       </header>
     </div>
   
@@ -346,6 +401,20 @@
 
       <!-- .entry-content -->
       
+<div id="vcomments"></div>
+<script>
+  window.onload = function(){
+      var valine = new Valine();
+      valine.init({
+        el: '#vcomments',
+        appId: "ubz450XtqTJRviGy8wIFr02c-gzGzoHsz",
+        appKey: "s31Vqyjo9JE4slBhltRm9Mv1",
+        path: window.location.pathname,
+        placeholder: "你是我一生只会遇见一次的惊喜 ..."
+      })
+  }
+</script>
+
       <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
       <footer class="post-footer">
         <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
@@ -516,6 +585,8 @@ $(document).ready(function() {
       
         <a href="mqqwpa://im/chat?chat_type=wpa&uin=1752092522&version=1&src_type=web&web_src=oicqzone.com" class="fa fa-qq" target="_blank" style="color: #25c6fe; margin-left:20px"></a>
       
+        <a href="http://t.me/Cprelude" class="fa fa-telegram" target="_blank" style="color: #9c9c9c; margin-left:20px"></a>
+      
     
   </p>
   <ul id="menu-new-1" class="menu">
@@ -539,6 +610,41 @@ $(document).ready(function() {
         </a>
         
           <ul class="sub-menu">
+            
+              <li>
+                <a href="/categories/技术/">
+                  <i class="fa fa-code" aria-hidden="true"></i>
+                  技术
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/生活/">
+                  <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                  生活
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/资源/">
+                  <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                  资源
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/随想/">
+                  <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                  随想
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/转载/">
+                  <i class="fa fa-book" aria-hidden="true"></i>
+                  转载
+                </a>
+              </li>
             
           </ul>
         
@@ -607,6 +713,16 @@ $(document).ready(function() {
       </li>
     
       <li>
+        <a href="/donate/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-heart faa-pulse" aria-hidden="true"></i>
+            赞赏
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
         <a href="/">
           <span class="faa-parent animated-hover">
             <i class="fa  fa-leaf faa-wrench" aria-hidden="true"></i>
@@ -638,6 +754,16 @@ $(document).ready(function() {
               </li>
             
           </ul>
+        
+      </li>
+    
+      <li>
+        <a href="/atom.xml">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-rss faa-pulse" aria-hidden="true"></i>
+            RSS
+          </span>
+        </a>
         
       </li>
     

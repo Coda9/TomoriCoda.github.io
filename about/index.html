@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">about | 比宇宙更远的Tomori</title>
+  <title itemprop="name">about | Coda</title>
   
     <link rel="shortcut icon" href="/images/shawu.ico">
   
@@ -36,8 +36,8 @@
   mashiro_option.site_name = "宇宙よりも遠いCoda";
   mashiro_option.author_name = "Coda";
   mashiro_option.site_url = "https://tomoricoda.github.io";
-  mashiro_option.v_appId = "";
-  mashiro_option.v_appKey = "";
+  mashiro_option.v_appId = "ubz450XtqTJRviGy8wIFr02c-gzGzoHsz";
+  mashiro_option.v_appKey = "s31Vqyjo9JE4slBhltRm9Mv1";
   mashiro_option.mathjax = "0";
   mashiro_option.qq_api_url = "https://api.mashiro.top/qqinfo/"; 
   mashiro_option.qq_avatar_api_url = "https://api.mashiro.top/qqinfo/";
@@ -202,6 +202,41 @@
                 
                   <ul class="sub-menu">
                     
+                      <li>
+                        <a href="/categories/技术/">
+                          <i class="fa fa-code" aria-hidden="true"></i>
+                          技术
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/生活/">
+                          <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                          生活
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/资源/">
+                          <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                          资源
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/随想/">
+                          <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                          随想
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/转载/">
+                          <i class="fa fa-book" aria-hidden="true"></i>
+                          转载
+                        </a>
+                      </li>
+                    
                   </ul>
                 
               </li>
@@ -269,6 +304,16 @@
               </li>
             
               <li>
+                <a href="/donate/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-heart faa-pulse" aria-hidden="true"></i>
+                    赞赏
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
                 <a href="/">
                   <span class="faa-parent animated-hover">
                     <i class="fa  fa-leaf faa-wrench" aria-hidden="true"></i>
@@ -303,6 +348,16 @@
                 
               </li>
             
+              <li>
+                <a href="/atom.xml">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-rss faa-pulse" aria-hidden="true"></i>
+                    RSS
+                  </span>
+                </a>
+                
+              </li>
+            
           </ul>
         </nav>
       </div>
@@ -325,17 +380,17 @@
   <div id="content" class="site-content">
     <article class="post-item post-301 page type-page status-publish has-post-thumbnail hentry">
       
-<div class="moe-mashiro" style="text-align:center; font-size: 50px; margin-bottom: 20px;">[宇宙よりも遠いCoda]</div>
+<div class="moe-mashiro" style="text-align:center; font-size: 50px; margin-bottom: 20px;">[さくら荘のhojun]</div>
 <div id="hello-mashiro" class="popcontainer" style="min-height: 300px; padding: 2px 6px 4px; background-color: rgba(242, 242, 242, 0.5); border-radius: 10px;">
   <center>
   <p>
   </p>
   <h4>
   与&nbsp;<ruby>
-  Coda&nbsp;<rp>
+  Mashiro&nbsp;<rp>
   （</rp>
   <rt>
-  </rt>
+  真（ま）白（しろ）</rt>
   <rp>
   ）</rp>
   </ruby>
@@ -352,15 +407,15 @@ function bot_ui_ini() {
     var botui = new BotUI("hello-mashiro");
     botui.message.add({
         delay: 800,
-        content: "Hi~ 👋"
+        content: "Hi, there111👋"
     }).then(function () {
         botui.message.add({
             delay: 1100,
-            content: "这里是 Coda"
+            content: "这里是 Mashiro"
         }).then(function () {
             botui.message.add({
                 delay: 1100,
-                content: "一个中二死宅"
+                content: "一个可爱的蓝孩子~"
             }).then(function () {
                 botui.action.button({
                     delay: 1600,
@@ -395,24 +450,32 @@ function bot_ui_ini() {
         secondpart = function () {
             botui.message.add({
                 delay: 1500,
-                content: "目前就读于中南大学"
+                content: "目前就读于上海财经大学"
             }).then(function () {
                 botui.message.add({
                     delay: 1500,
-                    content: "向往技术，主修计算机，辅修ACG"
+                    content: "向往技术却误入商科，但后来喜欢上了经济学…"
+                }).then(function () {
+                    botui.message.add({
+                        delay: 1200,
+                        content: "因为数据分析也需要Coder嘛"
                     }).then(function () {
                         botui.message.add({
                             delay: 1500,
-                            content: "痴迷于动画，每个季度都要追10部左右的番，很轻易就会被感动到的说~"
+                            content: "主攻 R 语言和 Python，略懂 STATA，偶尔也折腾 HTML/CSS/JavaScript/PHP"
+                        }).then(function () {
+                            botui.message.add({
+                                delay: 1500,
+                                content: "研究的方向，是经济/金融方向的数据分析（data science）以及机器学习（machine learning）"
                             }).then(function () {
                                 botui.message.add({
                                     delay: 1800,
-                                    content: "希望能成为一个面向ACG编程的程序员"
+                                    content: "喜欢画画，希望有一天能够被称为画师"
                                 }).then(function () {
                                     botui.action.button({
                                         delay: 1100,
                                         action: [{
-                                            text: "为什么叫Coda呢？ 🤔",
+                                            text: "为什么叫Mashiro呢？ 🤔",
                                             value: "why-mashiro"
                                         }]
                                     }).then(function (a) {
@@ -421,36 +484,34 @@ function bot_ui_ini() {
                                 })
                             })
                         })
-                    
-                
+                    })
+                })
             })
         },
         thirdpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "因为有段时间很喜欢一首名为Coda的纯音乐，所以就一直用这个名字啦"
-                }).then(function () {
-                                botui.message.add({
-                                    delay: 1800,
-                                    content: "而且这个名字真的很好看呀！"
-                    }).then(function () {
-                        botui.action.button({
-                            delay: 1500,
-                            action: [{
-                                text: "为什么是‘比宇宙更远的’呢？ 🤔",
-                                value: "why-cat"
-                            }]
-                        }).then(function (a) {
-                            fourthpart()
-                        })
-                    })
+                content: "Mashiro以及站名都来自一部动画，因为和主角有一样的爱好~ 如果有兴趣可以找找首页上的视频~"
+            }).then(function () {
+                botui.action.button({
+                    delay: 1500,
+                    action: [{
+                        text: "为什么是白猫呢？ 🤔",
+                        value: "why-cat"
+                    }]
+                }).then(function (a) {
+                    fourthpart()
                 })
+            })
         },
         fourthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "来自一部动画哦~超喜欢这部动画的说，感兴趣的话可以去了解一下.."
-            
+                content: "因为对GitHub有种执念… "
+            }).then(function () {
+                botui.message.add({
+                    delay: 1100,
+                    content: "而且我真的是猫控！"
                 }).then(function () {
                     botui.action.button({
                         delay: 1500,
@@ -462,12 +523,12 @@ function bot_ui_ini() {
                         fifthpart()
                     })
                 })
-            
+            })
         },
         fifthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "emmmm，Tomori也是来自一部动画哦，一位笔友也总是用这个来称呼我呢~"
+                content: "emmmm，看备案信息你就知道了=.= 本来想要zheng.xin的，但50万真买不起。。"
             }).then(function () {
                 botui.message.add({
                     delay: 1600,
@@ -651,6 +712,8 @@ $(document).ready(function() {
       
         <a href="mqqwpa://im/chat?chat_type=wpa&uin=1752092522&version=1&src_type=web&web_src=oicqzone.com" class="fa fa-qq" target="_blank" style="color: #25c6fe; margin-left:20px"></a>
       
+        <a href="http://t.me/Cprelude" class="fa fa-telegram" target="_blank" style="color: #9c9c9c; margin-left:20px"></a>
+      
     
   </p>
   <ul id="menu-new-1" class="menu">
@@ -674,6 +737,41 @@ $(document).ready(function() {
         </a>
         
           <ul class="sub-menu">
+            
+              <li>
+                <a href="/categories/技术/">
+                  <i class="fa fa-code" aria-hidden="true"></i>
+                  技术
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/生活/">
+                  <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                  生活
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/资源/">
+                  <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                  资源
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/随想/">
+                  <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                  随想
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/转载/">
+                  <i class="fa fa-book" aria-hidden="true"></i>
+                  转载
+                </a>
+              </li>
             
           </ul>
         
@@ -742,6 +840,16 @@ $(document).ready(function() {
       </li>
     
       <li>
+        <a href="/donate/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-heart faa-pulse" aria-hidden="true"></i>
+            赞赏
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
         <a href="/">
           <span class="faa-parent animated-hover">
             <i class="fa  fa-leaf faa-wrench" aria-hidden="true"></i>
@@ -773,6 +881,16 @@ $(document).ready(function() {
               </li>
             
           </ul>
+        
+      </li>
+    
+      <li>
+        <a href="/atom.xml">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-rss faa-pulse" aria-hidden="true"></i>
+            RSS
+          </span>
+        </a>
         
       </li>
     
