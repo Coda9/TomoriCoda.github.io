@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-06-03T06:31:45.944Z</updated>
+  <updated>2019-06-03T12:18:55.478Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>封面230部动画名单</title>
+    <link href="/2019/06/03/%E5%B0%81%E9%9D%A2%E7%95%AA%E5%89%A7/"/>
+    <id>/2019/06/03/封面番剧/</id>
+    <published>2019-06-03T12:10:15.000Z</published>
+    <updated>2019-06-03T12:18:55.478Z</updated>
+    
+    <summary type="html">
+    
+      230部
+    
+    </summary>
+    
+      <category term="悦读" scheme="/categories/%E6%82%A6%E8%AF%BB/"/>
+    
+    
+      <category term="悦读" scheme="/tags/%E6%82%A6%E8%AF%BB/"/>
+    
+  </entry>
   
   <entry>
     <title> hello world </title>
