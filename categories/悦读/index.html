@@ -537,7 +537,7 @@ var _hmt = _hmt || [];
     var todayHour = today.getHours();
     var todayMinute = today.getMinutes();
     var todaySecond = today.getSeconds();
-    var t1 = Date.UTC(2000,09,14,00,00,00); //北京时间2019-2-17 00:00:00
+    var t1 = Date.UTC(2000,09,14,00,00,00); //北京时间2000-9-14 00:00:00
     var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond);
     var diff = t2-t1;
     var diffYears = Math.floor(diff/years);
@@ -545,7 +545,7 @@ var _hmt = _hmt || [];
     var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours);
     var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes);
     var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds);
-    document.getElementById("sitetime").innerHTML="本站已在风雨飘摇中度过了 "+diffYears+" 年 "+diffDays+" 天 "+diffHours+" 时 "+diffMinutes+" 分 "+diffSeconds+" 秒";
+    document.getElementById("sitetime").innerHTML="本站已在风雨飘摇中存活了 "+diffYears+" 年 "+diffDays+" 天 "+diffHours+" 时 "+diffMinutes+" 分 "+diffSeconds+" 秒";
   }/*因为建站时间还没有一年，就将之注释掉了。需要的可以取消*/
   siteTime();
 </script>
