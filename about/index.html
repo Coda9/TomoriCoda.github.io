@@ -6,7 +6,7 @@
   
   <title itemprop="name">about | 比宇宙更远的地方</title>
   
-    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link rel="shortcut icon" href="/images/shawu.ico">
   
   <meta http-equiv="x-dns-prefetch-control" content="on">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+SerifMerriweather|Merriweather+Sans|Source+Code+Pro|Ubuntu:400,700|Noto+Serif+SC" media="all">
@@ -448,11 +448,11 @@ function bot_ui_ini() {
                     }).then(function () {
                         botui.message.add({
                             delay: 1500,
-                            content: "痴迷于动画，每个季度都要追10部左右的番，很轻易就会被感动到的说~"
+                            content: "精通C/C++/Lua/Python的hello world输出，熟练掌握Windows/Android/iOS等系统的开关机，略懂HTML/JavaScript/CSS的文件删除"
                         }).then(function () {
                             botui.message.add({
                                 delay: 1800,
-                                content: "希望能成为一个面向ACG编程的程序员"
+                                content: "热爱动画，希望能成为一个面向ACG编程的程序员"
                             }).then(function () {
                                 botui.action.button({
                                     delay: 1100,
@@ -475,7 +475,7 @@ function bot_ui_ini() {
                 }).then(function () {
                                 botui.message.add({
                                     delay: 1800,
-                                    content: "而且这个名字真的很好看呀！"
+                                    content: "而且这首歌真的很好听！"
                     }).then(function () {
                         botui.action.button({
                             delay: 1500,
@@ -514,7 +514,7 @@ function bot_ui_ini() {
             }).then(function () {
                 botui.message.add({
                     delay: 1600,
-                    content: "那么，仔细看看我的博客吧？ ^_^"
+                    content: "那么，仔细看看我的博客吧？（说累了要休息一下QAQ）"
                 })
             })
         } 
@@ -522,14 +522,20 @@ function bot_ui_ini() {
 bot_ui_ini()
 </script>
 
+<p>联系我(Email): <font color="#DD6A6B">dG9tb3JpbmFvMDAyQGdtYWlsLmNvbQ0K</font> (Base64)</p>
+
       <!-- .entry-content -->
       
-     
+      <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+      <footer class="post-footer">
+        <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+        <div class="post-tags">
+        </div>
         <div class="post-share">
           <div class="social-share sharehidden share-component"></div>
           <i class="iconfont show-share icon-forward"></i>
         </div>
-      <!-- .entry-footer -->
+      </footer><!-- .entry-footer -->
     </article>
       <!-- #post-## -->
       <section class="author-profile">
@@ -599,10 +605,38 @@ bot_ui_ini()
         </span>
       </p>
     </div>
-  </div><!-- .site-info -->
+    <span id="sitetime"></span>
+  </div>
+  <!-- .site-info -->
 </footer>
-
-
+<!-- 网站运行时间统计 -->
+<script language="javascript">
+  function siteTime(){
+    window.setTimeout("siteTime()", 1000);
+    var seconds = 1000;
+    var minutes = seconds * 60;
+    var hours = minutes * 60;
+    var days = hours * 24;
+    var years = days * 365;
+    var today = new Date();
+    var todayYear = today.getFullYear();
+    var todayMonth = today.getMonth()+1;
+    var todayDate = today.getDate();
+    var todayHour = today.getHours();
+    var todayMinute = today.getMinutes();
+    var todaySecond = today.getSeconds();
+    var t1 = Date.UTC(2000,09,14,00,00,00); //北京时间2019-2-17 00:00:00
+    var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond);
+    var diff = t2-t1;
+    var diffYears = Math.floor(diff/years);
+    var diffDays = Math.floor((diff/days)-diffYears*365);
+    var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours);
+    var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes);
+    var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds);
+    document.getElementById("sitetime").innerHTML="本站已在风雨飘摇中度过了 "+diffYears+" 年 "+diffDays+" 天 "+diffHours+" 时 "+diffMinutes+" 分 "+diffSeconds+" 秒";
+  }/*因为建站时间还没有一年，就将之注释掉了。需要的可以取消*/
+  siteTime();
+</script>
 
 <!-- <script src="/js/tocbot.js"></script> -->
 <script type="text/javascript" src="/js/lib.min.js"></script>
