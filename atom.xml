@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-06-05T08:57:31.617Z</updated>
+  <updated>2019-06-05T10:20:38.168Z</updated>
   <id>/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>pixiv</title>
+    <title>pixiv的正确打开方式</title>
     <link href="/2019/06/05/pixiv/"/>
     <id>/2019/06/05/pixiv/</id>
     <published>2019-06-05T08:15:27.000Z</published>
-    <updated>2019-06-05T08:57:31.617Z</updated>
+    <updated>2019-06-05T10:20:38.168Z</updated>
     
     <summary type="html">
     
@@ -32,6 +32,8 @@
       <category term="资源" scheme="/categories/%E8%B5%84%E6%BA%90/"/>
     
     
+      <category term="pixiv" scheme="/tags/pixiv/"/>
+    
   </entry>
   
   <entry>
@@ -39,7 +41,7 @@
     <link href="/2019/06/03/%E5%B0%81%E9%9D%A2%E7%95%AA%E5%89%A7/"/>
     <id>/2019/06/03/封面番剧/</id>
     <published>2019-06-03T12:10:15.000Z</published>
-    <updated>2019-06-03T12:18:55.478Z</updated>
+    <updated>2019-06-05T10:20:33.856Z</updated>
     
     <summary type="html">
     
@@ -47,30 +49,30 @@
     
     </summary>
     
-      <category term="悦读" scheme="/categories/%E6%82%A6%E8%AF%BB/"/>
+      <category term="生活" scheme="/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="悦读" scheme="/tags/%E6%82%A6%E8%AF%BB/"/>
+      <category term="动画" scheme="/tags/%E5%8A%A8%E7%94%BB/"/>
     
   </entry>
   
   <entry>
-    <title> hello world </title>
+    <title>hello world</title>
     <link href="/2019/06/02/hello%20world/"/>
     <id>/2019/06/02/hello world/</id>
     <published>2019-06-02T12:41:55.000Z</published>
-    <updated>2019-06-04T14:59:18.382Z</updated>
+    <updated>2019-06-05T10:20:36.642Z</updated>
     
     <summary type="html">
     
-      第一篇博客
+      你好，世界！
     
     </summary>
     
       <category term="生活" scheme="/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="悦读" scheme="/tags/%E6%82%A6%E8%AF%BB/"/>
+      <category term="hello world" scheme="/tags/hello-world/"/>
     
   </entry>
   
