@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-06-03T12:18:55.478Z</updated>
+  <updated>2019-06-05T08:57:31.617Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>pixiv</title>
+    <link href="/2019/06/05/pixiv/"/>
+    <id>/2019/06/05/pixiv/</id>
+    <published>2019-06-05T08:15:27.000Z</published>
+    <updated>2019-06-05T08:57:31.617Z</updated>
+    
+    <summary type="html">
+    
+      pixiv的正确打开方式
+    
+    </summary>
+    
+      <category term="资源" scheme="/categories/%E8%B5%84%E6%BA%90/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>封面230部动画名单</title>
