@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">about | 比宇宙更远的地方</title>
+  <title itemprop="name">关于 | 比宇宙更远的地方</title>
   
   <meta http-equiv="x-dns-prefetch-control" content="on">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+SerifMerriweather|Merriweather+Sans|Source+Code+Pro|Ubuntu:400,700|Noto+Serif+SC" media="all">
@@ -411,24 +411,34 @@ function bot_ui_ini() {
         delay: 800,
         content: "Hi~ 👋"
     }).then(function () {
+            botui.message.add({
+                delay: 600,
+                content: "这里是Coda"
+            }).then(function () {
+                 botui.message.add({
+                    delay: 900,
+                    content: "一个可爱的蓝孩子~"
+                }).then(function () {
                 botui.action.button({
                     delay: 1600,
                     action: [{
-                        text: "友好地回应 😃",
+                        text: "然后呢？ 😃",
                         value: "sure"
                     }, {
-                        text: "假装没看见 🤫",
+                        text: "少废话！ 🙄",
                         value: "skip"
                     }]
                 }).then(function (a) {
                     "sure" == a.value && sure();
                     "skip" == a.value && end()
                 })
+            })
+        })
     });
-    var sure = function () {
+       var sure = function () {
             botui.message.add({
                 delay: 600,
-                content: "这里是Coda"
+                content: "😘"
             }).then(function () {
                 secondpart()
             })
@@ -436,31 +446,11 @@ function bot_ui_ini() {
         end = function () {
             botui.message.add({
                 delay: 600,
-                content: "不理我？那就算了😔"
+                content: "![...](https://view.moezx.cc/images/2018/05/06/a1c4cd0452528b572af37952489372b6.md.jpg)"
             })
         },
-        secondpart = function (){
-            botui.message.add({
-            delay: 900,
-            content: "一个可爱的蓝孩子~"
-        }).then(function () {
-            botui.message.add({
-                delay: 1100,
-                content: "欢迎你来到我的博客😘 "
-            }).then(function () {
-                botui.action.button({
-                    delay: 700,
-                    action: [{
-                        text: "然后呢？",
-                        value: "then"
-                    }, {
-                        text: "少废话！",
-                        value: "exit"
+ 
 
-                    }]
-                })
-            }
-        }
         secondpart = function () {
             botui.message.add({
                 delay: 1500,
@@ -549,38 +539,6 @@ bot_ui_ini()
 <p><center><h4><font color="#c5c5c5">Last updated in Jun. 4th, 2019</font></h4></center><br><br><br>联系我(Email): <font color="#DD6A6B">dG9tb3JpbmFvMDAyQGdtYWlsLmNvbQ0K</font> (Base64)<br><br></p>
 <h4><font color="#c5c5c5"><i>2019年5月29日 本站从虚空中迁移至Hexo，并启用Theme Sakura</i></font><br><font color="#c5c5c5"><i>2018年9月10日 本站在虚空中诞生 取名为Coda</i></font></h4>
 
-
-<p>botui.message.add({<br>            delay: 1100,<br>            content: “这里是 Coda”<br>        }).then(function () {<br>            botui.message.add({<br>                delay: 1100,<br>                content: “一个可爱的蓝孩子~”<br>            }).then(function () {</p>
-<pre><code>        }).then(function () {
-            botui.action.button({
-                delay: 1600,
-                action: [{
-                    text: &quot;然后呢？ 😃&quot;,
-                    value: &quot;sure&quot;
-                }, {
-                    text: &quot;少废话！ 🙄&quot;,
-                    value: &quot;skip&quot;
-                }]
-            }).then(function (a) {
-                &quot;sure&quot; == a.value &amp;&amp; sure();
-                &quot;skip&quot; == a.value &amp;&amp; end()
-            })
-});
-var sure = function () {
-        botui.message.add({
-            delay: 600,
-            content: &quot;😘&quot;
-        }).then(function () {
-            secondpart()
-        })
-    },
-    end = function () {
-        botui.message.add({
-            delay: 600,
-            content: &quot;![...](https://view.moezx.cc/images/2018/05/06/a1c4cd0452528b572af37952489372b6.md.jpg)&quot;
-        })
-    },
-</code></pre>
       <!-- .entry-content -->
       
       <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
