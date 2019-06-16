@@ -1,22 +1,10 @@
-
 .aplayer-container {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 400px;
 }
-#veditor {
-    background-image: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/comment-bg.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-color: rgba(255,255,255,0);
-    resize: vertical;
-}
-.post-meta em {
-    margin: 0 5px;
-    color: #666;
-}
+
 .aplayer {
     background:#fff;
     font-family:Arial,Helvetica,sans-serif;
