@@ -2405,6 +2405,9 @@
 		    function aru(index){
 		      return "<img class='emoji aru' src='https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/aru/" + index + ".png'>";
 		    }
+            function b2233(str){
+              return "<img class='emoji b2233' src='https://cdn.jsdelivr.net/gh/TomoriCoda/hexo-tag-emojis-bycoda@1.0.4/emojis/2233/" + str + ".png'>";
+            }
 		    function tieba(str){
 		      return "<img class='emoji tieba' src='https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/tieba/" + str + ".png'>";
 		    }
@@ -2412,7 +2415,21 @@
 		      return "<img class='emoji qq' src='https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/qq/" + str + ".gif'>";
 		    }
         e.exports = {
-			      aru151: aru(151),
+                  bili2233大笑: b2233('daxiao'),
+			      bili2233大哭: b2233('daku'),
+                  bili2233喝茶: b2233('heshui'),
+                  bili2233吃惊: b2233('chijing'),
+                  bili2233第一: b2233('diyi'),
+                  bili2233汗: b2233('han'),
+                  bili2233困惑: b2233('kunhuo'),
+                  bili2233卖萌: b2233('maimeng'),
+                  bili2233发怒: b2233('nu'),
+                  bili2233吐魂: b2233('tuhun'),
+                  bili2233委屈: b2233('weiqu'),
+                  bili2233无言: b2233('wuyan'),
+                  bili2233耶: b2233('ye'),
+                  bili2233疑问: b2233('yiwen'),
+                  bili2233郁闷: b2233('yumen'),
 			      贴吧what: tieba('what'),
 			      贴吧乖: tieba('乖'),
 			      贴吧喷: tieba('喷'),
