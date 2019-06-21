@@ -2414,7 +2414,11 @@
 		    function qq(str) {
 		      return "<img class='emoji qq' src='https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/qq/" + str + ".gif'>";
 		    }
+            function b22(str){
+              return "<img class='emoji b22' src='https://cdn.jsdelivr.net/gh/TomoriCoda/ImgePicgo@1.0.0/emojis/" + str + ".png'>";
+            }
         e.exports = {
+                b22: b22('heshui'),
                   bili2233大笑: b2233('daxiao'),
 			      bili2233大哭: b2233('daku'),
                   bili2233喝茶: b2233('heshui'),
