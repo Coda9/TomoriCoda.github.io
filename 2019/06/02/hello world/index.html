@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="/css/zoom.css" media="all">
   <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
   <link rel="stylesheet" href="/css/iconfont/iconfont.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
 <!--   <link rel="stylesheet" id="saukra_css-css" href="https://2heng.xin/wp-content/cache/autoptimize/css/autoptimize_ad42a61f4c7d4bdd9f91afcff6b5dda5.css
 " type="text/css" media="all"> -->
   <script>
@@ -465,19 +465,26 @@ var _hmt = _hmt || [];
         
       </section>
       
-<div id="gitalk-container"></div>
+<div id="vcomments"></div>
 <script>
-  var gitalk = new Gitalk({
-    clientID: '4f409b03c05372dc0b33',
-    clientSecret: 'ab4356167187891fc7a2e605bb0977bc39030272',
-    repo: 'TomoriCoda.github.io',
-    owner: 'TomoriCoda',
-    admin: ['TomoriCoda'],
-    id: window.location.pathname,
-    distractionFreeMode: false // Facebook-like distraction free mode
-  });
-  gitalk.render('gitalk-container');
+  window.onload = function(){
+      var valine = new Valine();
+      valine.init({
+        el: '#vcomments',
+        volantis: "true",
+        appId: "Y7YuwyQk6kyukSxK6HnkOAyn-9Nh9j0Va",
+        appKey: "nTYYcB2EjqaaFx4aCvk4p8r4",
+        avatar: "",
+        verify: "false",
+        visitor: "false",
+        recordIP: "true",
+        path: window.location.pathname,
+        placeholder: "欢迎留言呀 ..."
+      })
+  }
 </script>
+
+
 
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -595,7 +602,8 @@ var _hmt = _hmt || [];
 <script type="text/javascript" src="/js/zoom.min.js"></script>
 <script type="text/javascript" src="/js/sakura-app.js"></script>
 <script type="text/javascript" src="/js/title_change.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script type="text/javascript" src="/js/Valine1.3.7.min.js"></script>
+
 
 
 <!-- 不蒜子 网页计数器 -->
