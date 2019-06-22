@@ -2411,7 +2411,7 @@
 		    function tieba(str){
 		      return "<img class='emoji tieba' src='https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/tieba/" + str + ".png'>";
 		    }
-		    function qq(str) {
+		    function qq(str){
 		      return "<img class='emoji qq' src='https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/qq/" + str + ".gif'>";
 		    }
             function b22(str){
