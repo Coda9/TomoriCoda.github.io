@@ -397,7 +397,7 @@ var _hmt = _hmt || [];
       var gitalk = new Gitalk({
           clientID: '4f409b03c05372dc0b33',
           clientSecret: 'ab4356167187891fc7a2e605bb0977bc39030272',
-          id: window.location.pathname,
+          id: decodeURI(window.location.pathname),
           repo: 'TomoriCoda.github.io',
           owner: 'TomoriCoda',
           admin: 'TomoriCoda'
