@@ -415,7 +415,8 @@ var _hmt = _hmt || [];
 <img class="emoji-coda" src="https://cdn.jsdelivr.net/gh/TomoriCoda/hexo-tag-emojis-bycoda@1.0.5/emojis/2233/maimeng.png">
 <img class="emoji-coda" src="https://cdn.jsdelivr.net/gh/TomoriCoda/hexo-tag-emojis-bycoda@1.0.5/emojis/luotianyi/打尻.png">
 <h1 id="使用方式-以本站Sakura主题为例"><a href="#使用方式-以本站Sakura主题为例" class="headerlink" title="使用方式(以本站Sakura主题为例)"></a>使用方式(以本站Sakura主题为例)</h1><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h3 id="有两种方式："><a href="#有两种方式：" class="headerlink" title="有两种方式："></a>有两种方式：</h3><p>1.直接用npm安装<br><code>npm i hexo-tag-emojis-bycoda --save</code><br>2.直接去我的github仓库里下载，再在node_modules里新建一个名为hexo-tag-emojis-bycoda文件夹，将解压后的文件夹复制粘贴放入其中即可。</p>
-<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="引入CSS"><a href="#引入CSS" class="headerlink" title="引入CSS"></a>引入CSS</h3><p>使用之前先要引入css:(建议在文章模板页引入，因为你只在写文章的时候使用表情，按需加载)。当然也可以不引人css，自己写一个css样式，以下的css只是.emoji-coda的表情图片的样式，主要就是控制大小、行内块元素。有更好的css样式可以自由发挥。而且欢迎pr到github仓库。<br><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/TomoriCoda/hexo-tag-emojis-bycoda/css/emoji.css&quot;&gt;</code><br>目前有4套表情，但可以根据自己的需要DIY，自定义表情只要向emojis里添加新的文件夹，push再release即可<br>注意！每次更新之后需更新上述cdn的版本<br>如：<br><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/TomoriCoda/hexo-tag-emojis-bycoda@1.0.2/css/emoji.css&quot;&gt;</code></p>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="引入CSS"><a href="#引入CSS" class="headerlink" title="引入CSS"></a>引入CSS</h3><p>使用之前先要引入css:(建议在文章模板页引入，因为你只在写文章的时候使用表情，按需加载)。当然也可以不引人css，自己写一个css样式，以下的css只是.emoji-coda的表情图片的样式，主要就是控制大小、行内块元素。有更好的css样式可以自由发挥。而且欢迎pr到github仓库。<br><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/TomoriCoda/hexo-tag-emojis-bycoda/css/emoji.css&quot;&gt;</code><br>目前有4套表情，但可以根据自己的需要DIY，自定义表情只要向emojis里添加新的文件夹，push再release即可。</p>
+<p>注意！每次更新之后需更新cdn的版本：<br>在node_modules中找到hexo-tag-emojis-bycoda中的index.js 修改版本号即可<br>如图：<br><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/TomoriCoda/CDN@1.5.6/article/chajianjietu.png" alt="修改版本号"></p>
 <p>附上我目前的CSS代码:</p>
 <pre><code class="css">.emoji-coda {
     display: inline-block !important;
@@ -431,8 +432,7 @@ var _hmt = _hmt || [];
 参照下面这行代码自行取用呀~
 {% emoji_coda 表情包文件夹/表情名 %}
 </code></pre>
-<p>相信聪明的你一定很容易懂的！！</p>
-<p>下一次再分开实现不同表情包的width(大小)以及动态效果！！如果你实现了请教教我，谢谢<img class="emoji-coda" src="https://cdn.jsdelivr.net/gh/TomoriCoda/hexo-tag-emojis-bycoda@1.0.5/emojis/luotianyi/爱你哦.png"></p>
+<p>相信聪明的你一定很容易懂的！！<img class="emoji-coda" src="https://cdn.jsdelivr.net/gh/TomoriCoda/hexo-tag-emojis-bycoda@1.0.5/emojis/luotianyi/爱你哦.png"></p>
 
         </div>
         <p>Q.E.D. <i class="fa fa-meetup" aria-hidden="true" style="color:#d34836"></i></p>
