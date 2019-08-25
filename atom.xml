@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-07-02T09:33:57.162Z</updated>
+  <updated>2019-08-25T14:02:52.286Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一些思考</title>
+    <link href="/2019/08/25/whimsy/"/>
+    <id>/2019/08/25/whimsy/</id>
+    <published>2019-08-25T14:02:00.000Z</published>
+    <updated>2019-08-25T14:02:52.286Z</updated>
+    
+    <summary type="html">
+    
+      大二开学之际的一些思考
+    
+    </summary>
+    
+      <category term="随想" scheme="/categories/%E9%9A%8F%E6%83%B3/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>bilibili表情插件</title>
@@ -118,24 +136,6 @@
     <summary type="html">
     
       你好，世界！
-    
-    </summary>
-    
-      <category term="随想" scheme="/categories/%E9%9A%8F%E6%83%B3/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>一些思考</title>
-    <link href="/2019/06/02/whimsy/"/>
-    <id>/2019/06/02/whimsy/</id>
-    <published>2019-06-02T12:41:00.000Z</published>
-    <updated>2019-08-25T14:00:08.543Z</updated>
-    
-    <summary type="html">
-    
-      大二开学之际的一些思考
     
     </summary>
     
