@@ -373,9 +373,56 @@ var _hmt = _hmt || [];
 
         <div class="pattern-center-blank"></div>
   
+    <div class="pattern-center ">
+      <div class="pattern-attachment-img">
+        <img src="https://cdn.jsdelivr.net/gh/TomoriCoda/CDN@1.5/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/TomoriCoda/photos@1.0.0.0/photos/photo1.jpg" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
+      </div>
+      <header class="pattern-header ">
+        <h1 class="entry-title">
+        图集</h1>
+      </header>
+    </div>
+  
   <div id="content" class="site-content">
     <article class="post-item post-301 page type-page status-publish has-post-thumbnail hentry">
-      <p>相册测试<br><a data-fancybox="gallery" href="https://cdn.jsdelivr.net/gh/TomoriCoda/CDN@1.5.4/article/hefu.png" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/TomoriCoda/CDN@1.5.4/article/hefu.png"></a><br><a data-fancybox="gallery" href="https://cdn.jsdelivr.net/gh/TomoriCoda/CDN@1.5.4/article/hefu.png" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/TomoriCoda/CDN@1.5.4/article/hefu.png"></a><br><a data-fancybox="gallery" href="https://cdn.jsdelivr.net/gh/TomoriCoda/CDN@1.5.4/article/hefu.png" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/TomoriCoda/CDN@1.5.4/article/hefu.png"></a><br><a href="https://cdn.jsdelivr.net/gh/TomoriCoda/CDN@1.5.4/article/hefu.png" data-fancybox="images" data-caption="123" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/TomoriCoda/CDN@1.5.4/article/hefu.png"></a></p>
+      <header class="entry-header"><h1 class="entry-title">一图一世界</h1></header>
+
+<div id="article"><br>    <a data-fancybox="gallery" href="https://cdn.jsdelivr.net/gh/TomoriCoda/photos@1.0.0.0/photos/photo1.jpg" target="_blank" rel="noopener"><img height="500" alt width="240" src="https://cdn.jsdelivr.net/gh/TomoriCoda/photos@1.0.0.0/photos/photo1.jpg"></a>                     <a data-fancybox="gallery" href="https://cdn.jsdelivr.net/gh/TomoriCoda/photos@1.0.0.0/photos/photo2.jpg" target="_blank" rel="noopener"><img height="500" alt width="240" src="https://cdn.jsdelivr.net/gh/TomoriCoda/photos@1.0.0.0/photos/photo2.jpg"></a>                     <a data-fancybox="gallery" href="https://cdn.jsdelivr.net/gh/TomoriCoda/photos@1.0.0.0/photos/photo3.jpg" target="_blank" rel="noopener"><img height="500" alt width="240" src="https://cdn.jsdelivr.net/gh/TomoriCoda/photos@1.0.0.0/photos/photo3.jpg"></a>                     <a data-fancybox="gallery" href="https://cdn.jsdelivr.net/gh/TomoriCoda/photos@1.0.0.0/photos/photo4.jpg" target="_blank" rel="noopener"><img height="500" alt width="240" src="https://cdn.jsdelivr.net/gh/TomoriCoda/photos@1.0.0.0/photos/photo4.jpg"></a>                     <a data-fancybox="gallery" href="https://cdn.jsdelivr.net/gh/TomoriCoda/photos@1.0.0.0/photos/photo5.jpg" target="_blank" rel="noopener"><img height="500" alt width="240" src="https://cdn.jsdelivr.net/gh/TomoriCoda/photos@1.0.0.0/photos/photo5.jpg"></a>                     <a data-fancybox="gallery" href="https://cdn.jsdelivr.net/gh/TomoriCoda/photos@1.0.0.0/photos/photo6.jpg" target="_blank" rel="noopener"><img height="500" alt width="240" src="https://cdn.jsdelivr.net/gh/TomoriCoda/photos@1.0.0.0/photos/photo6.jpg"></a>                     <a data-fancybox="gallery" href="https://cdn.jsdelivr.net/gh/TomoriCoda/photos@1.0.0.0/photos/photo7.jpg" target="_blank" rel="noopener"><img height="500" alt width="240" src="https://cdn.jsdelivr.net/gh/TomoriCoda/photos@1.0.0.0/photos/photo7.jpg"></a>                     <a data-fancybox="gallery" href="https://cdn.jsdelivr.net/gh/TomoriCoda/photos@1.0.0.0/photos/photo8.jpg" target="_blank" rel="noopener"><img height="500" alt width="240" src="https://cdn.jsdelivr.net/gh/TomoriCoda/photos@1.0.0.0/photos/photo8.jpg"></a>                     <a data-fancybox="gallery" href="https://cdn.jsdelivr.net/gh/TomoriCoda/photos@1.0.0.0/photos/photo9.png" target="_blank" rel="noopener"><img height="500" alt width="240" src="https://cdn.jsdelivr.net/gh/TomoriCoda/photos@1.0.0.0/photos/photo9.png"></a><br></div>
+
+<script type="text/javascript">
+//缩放图片到合适大小
+function ResizeImages()
+{
+   var myimg,oldwidth,oldheight;
+   var maxwidth=240;
+   var maxheight=240;
+   var imgs = document.getElementById('article').getElementsByTagName('img');   //如果你定义的id不是article，请修改此处
+
+   for(i=0;i<imgs.length;i++){
+     myimg = imgs[i];
+
+     if(myimg.width > myimg.height)
+     {
+         if(myimg.width > maxwidth)
+         {
+            oldwidth = myimg.width;
+            myimg.height = myimg.height * (maxwidth/oldwidth);
+            myimg.width = maxwidth;
+         }
+     }else{
+         if(myimg.height > maxheight)
+         {
+            oldheight = myimg.height;
+            myimg.width = myimg.width * (maxheight/oldheight);
+            myimg.height = maxheight;
+         }
+     }
+   }
+}
+//缩放图片到合适大小
+ResizeImages();
+</script>
+
 
       <!-- .entry-content -->
       
@@ -397,7 +444,7 @@ var _hmt = _hmt || [];
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
-            <a href="https://tomoricoda.github.io" itemprop="url" rel="author">場所</a>
+            <a href="https://tomoricoda.github.io" itemprop="url" rel="author">Coda</a>
             </h3>
           </div>
         </div>
@@ -501,7 +548,17 @@ var _hmt = _hmt || [];
 <script type="text/javascript" src="/js/lib.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 <script type="text/javascript" src="/js/InsightSearch.js"></script>
-<script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="/js/jquery.fancybox.min.js">
+$('[data-fancybox="images"]').fancybox({
+  afterLoad : function(instance, current) {
+    var pixelRatio = window.devicePixelRatio || 1;
+
+    if ( pixelRatio > 1.5 ) {
+      current.width  = current.width  / pixelRatio;
+      current.height = current.height / pixelRatio;
+    }
+  }
+});</script>
 <script type="text/javascript" src="/js/zoom.min.js"></script>
 <script type="text/javascript" src="/js/sakura-app.js"></script>
 <script type="text/javascript" src="/js/title_change.js"></script>

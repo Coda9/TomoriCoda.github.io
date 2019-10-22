@@ -414,7 +414,7 @@ var _hmt = _hmt || [];
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
-            <a href="https://tomoricoda.github.io" itemprop="url" rel="author">場所</a>
+            <a href="https://tomoricoda.github.io" itemprop="url" rel="author">Coda</a>
             </h3>
           </div>
         </div>
@@ -518,7 +518,17 @@ var _hmt = _hmt || [];
 <script type="text/javascript" src="/js/lib.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 <script type="text/javascript" src="/js/InsightSearch.js"></script>
-<script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="/js/jquery.fancybox.min.js">
+$('[data-fancybox="images"]').fancybox({
+  afterLoad : function(instance, current) {
+    var pixelRatio = window.devicePixelRatio || 1;
+
+    if ( pixelRatio > 1.5 ) {
+      current.width  = current.width  / pixelRatio;
+      current.height = current.height / pixelRatio;
+    }
+  }
+});</script>
 <script type="text/javascript" src="/js/zoom.min.js"></script>
 <script type="text/javascript" src="/js/sakura-app.js"></script>
 <script type="text/javascript" src="/js/title_change.js"></script>

@@ -410,16 +410,6 @@ var _hmt = _hmt || [];
           <ul class="link-items fontSmooth">
             
               <li class="link-item">
-                <a class="link-item-inner effect-apollo" href="https://2heng.xin" title="Sakura的原作者哦" target="_blank" rel="friend">
-                  <img class="lazyload" onerror="imgError(this,1)" src="https://cdn.jsdelivr.net/gh/TomoriCoda/CDN@1.5/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cn.gravatar.com/avatar/cd2b3a164c977539712929f66cad335c?s=96&d=mm&r=g">
-                  <span class="sitename">
-                  樱花庄的白猫</span>
-                  <div class="linkdes">
-                  Sakura的原作者哦</div>
-                </a>
-              </li>
-            
-              <li class="link-item">
                 <a class="link-item-inner effect-apollo" href="https://liaozeyu.sxl.cn" title="一个理科比文科强的法学生" target="_blank" rel="friend">
                   <img class="lazyload" onerror="imgError(this,1)" src="https://cdn.jsdelivr.net/gh/TomoriCoda/CDN@1.5/loader/orange.progress-bar-stripe-loader.svg" data-src="https://ws1.sinaimg.cn/large/0078s9GLgy1g40dzdlvpej30tz0tztbs.jpg">
                   <span class="sitename">
@@ -436,16 +426,6 @@ var _hmt = _hmt || [];
                   爱爱爱莉</span>
                   <div class="linkdes">
                   常驻网路世界的普通吸血鬼</div>
-                </a>
-              </li>
-            
-              <li class="link-item">
-                <a class="link-item-inner effect-apollo" href="https://xiongtianci.com" title="Viva La Vida" target="_blank" rel="friend">
-                  <img class="lazyload" onerror="imgError(this,1)" src="https://cdn.jsdelivr.net/gh/TomoriCoda/CDN@1.5/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/xiongtianci-tc/cdn@v1.0/img/custom/avatar.jpg">
-                  <span class="sitename">
-                  天赐</span>
-                  <div class="linkdes">
-                  Viva La Vida</div>
                 </a>
               </li>
             
@@ -643,7 +623,17 @@ var _hmt = _hmt || [];
 <script type="text/javascript" src="/js/lib.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 <script type="text/javascript" src="/js/InsightSearch.js"></script>
-<script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="/js/jquery.fancybox.min.js">
+$('[data-fancybox="images"]').fancybox({
+  afterLoad : function(instance, current) {
+    var pixelRatio = window.devicePixelRatio || 1;
+
+    if ( pixelRatio > 1.5 ) {
+      current.width  = current.width  / pixelRatio;
+      current.height = current.height / pixelRatio;
+    }
+  }
+});</script>
 <script type="text/javascript" src="/js/zoom.min.js"></script>
 <script type="text/javascript" src="/js/sakura-app.js"></script>
 <script type="text/javascript" src="/js/title_change.js"></script>
