@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-10-22T12:43:40.948Z</updated>
+  <updated>2019-11-06T15:00:15.284Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>三部神作</title>
+    <link href="/2019/10/23/post/"/>
+    <id>/2019/10/23/post/</id>
+    <published>2019-10-23T14:14:10.000Z</published>
+    <updated>2019-11-06T15:00:15.284Z</updated>
+    
+    <summary type="html">
+    
+      心目中的动画神作
+    
+    </summary>
+    
+      <category term="生活" scheme="/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="动画" scheme="/tags/%E5%8A%A8%E7%94%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>《春物》杂谈</title>
