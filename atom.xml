@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2020-01-29T17:02:12.793Z</updated>
+  <updated>2020-01-30T16:35:51.156Z</updated>
   <id>/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>闲话《言叶之庭》</title>
+    <link href="/2020/01/30/rain/"/>
+    <id>/2020/01/30/rain/</id>
+    <published>2020-01-30T14:19:06.000Z</published>
+    <updated>2020-01-30T16:35:51.156Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="收录" scheme="/categories/%E6%94%B6%E5%BD%95/"/>
+    
+    
+      <category term="杂谈" scheme="/tags/%E6%9D%82%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2019年度总结</title>
     <link href="/2020/01/26/sa-you-na-ra-2019/"/>
     <id>/2020/01/26/sa-you-na-ra-2019/</id>
     <published>2020-01-26T03:40:52.000Z</published>
-    <updated>2020-01-29T17:02:12.793Z</updated>
+    <updated>2020-01-30T15:10:30.686Z</updated>
     
     <summary type="html">
     
