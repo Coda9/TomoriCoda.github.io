@@ -505,31 +505,7 @@ $(document).ready(function () {
   changeBG('#KAdots-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/point.png')
   changeBG('#totem-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/little-monster.png')
   changeBGnoTrans('#bing-bg', 'https://api.shino.cc/bing/')
-  $('.skin-menu #white-bg').click(function () {
-    mashiro_global.variables.skinSecter = false
-    mashiro_global.variables.isNight = false
-    $('#night-mode-cover').css('visibility', 'hidden')
-    $('body').css('background-image', 'none')
-    $('.blank').css('background-color', 'rgba(255,255,255,.0)')
-    $('.pattern-center-sakura').removeClass('pattern-center-sakura').addClass('pattern-center')
-    $('.headertop-bar-sakura').removeClass('headertop-bar-sakura').addClass('headertop-bar')
-    $('#banner_wave_1').removeClass('banner_wave_hide_fit_skin')
-    $('#banner_wave_2').removeClass('banner_wave_hide_fit_skin')
-    closeSkinMenu()
-    setCookie('bgImgSetting', '', 30)
-  })
-  $('.skin-menu #dark-bg').click(function () {
-    mashiro_global.variables.skinSecter = true
-    mashiro_global.variables.isNight = true
-    $('body').css('background-image', 'url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/starry_sky.png)')
-    $('.blank').css('background-color', 'rgba(255,255,255,.8)')
-    $('#night-mode-cover').css('visibility', 'visible')
-    $('.pattern-center').removeClass('pattern-center').addClass('pattern-center-sakura')
-    $('.headertop-bar').removeClass('headertop-bar').addClass('headertop-bar-sakura')
-    $('#banner_wave_1').addClass('banner_wave_hide_fit_skin')
-    $('#banner_wave_2').addClass('banner_wave_hide_fit_skin')
-    closeSkinMenu()
-  })
+
 
   function closeSkinMenu () {
     $('.skin-menu').removeClass('show')
