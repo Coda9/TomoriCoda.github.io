@@ -1,4 +1,3 @@
-;
 var _typeof = typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol' ? function (a) {
   return typeof a
 } : function (a) {
@@ -505,7 +504,26 @@ $(document).ready(function () {
   changeBG('#KAdots-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/point.png')
   changeBG('#totem-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/little-monster.png')
   changeBGnoTrans('#bing-bg', 'https://api.shino.cc/bing/')
-
+  $('.skin-menu #white-bg').click(function () {
+    mashiro_global.variables.isNight = false
+    $('#night-mode-cover').css('visibility', 'hidden')
+    $('body').css('background-image', 'none')
+  $('.blank').css('background-color', 'rgba(255,255,255,0)')
+  $('#banner_wave_1').removeClass('banner_wave_hide_fit_skin')
+    $('#banner_wave_2').removeClass('banner_wave_hide_fit_skin')
+    closeSkinMenu()
+  setCookie('bgImgSetting', '', 30)
+  })
+  $('.skin-menu #dark-bg').click(function () {
+    mashiro_global.variables.isNight = true
+    $('body').css('background-image', 'url(https://cdn.jsdelivr.net/gh/ctz45562/cdn@1.3.4/theme-dark.jpg)')
+    $('.blank').css('background-color', 'rgba(255,255,255,0)')
+    $('#night-mode-cover').css('visibility', 'visible')
+    $('#banner_wave_1').addClass('banner_wave_hide_fit_skin')
+    $('#banner_wave_2').addClass('banner_wave_hide_fit_skin')
+    closeSkinMenu()
+  setCookie('bgImgSetting','https://cdn.jsdelivr.net/gh/ctz45562/cdn@1.3.4/theme-dark.jpg',30)
+  })
 
   function closeSkinMenu () {
     $('.skin-menu').removeClass('show')
