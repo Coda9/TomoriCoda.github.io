@@ -853,25 +853,33 @@ dfn,cite,em,i {
     font-style:italic
 }
 blockquote {
+    width:fit-content;
+    width:-webkit-fit-content;
+    width:-moz-fit-content;
+    width:-ms-fit-content;
+    width:-o-fit-content;
     margin:0;
-    padding:30px 60px;
-    position:relative
+    margin-bottom: 20px;
+    padding:12px 45px;
+    position:relative;
+    border-radius: 1.5rem;
+    background: rgba(225, 225, 225, 0);
 }
 blockquote:before {
     content:"\f10d" !important;
-    font-size:3rem;
+    font-size:2rem;
     position:absolute;
     top:-25px;
-    left:12px;
+    left:2px;
     color:orange;
     font-family:FontAwesome
 }
 blockquote:after {
     content:'\f10e' !important;
-    font-size:3rem;
+    font-size:2rem;
     position:absolute;
     bottom:-25px;
-    right:-5px;
+    right:0px;
     color:orange;
     font-family:FontAwesome
 }
@@ -1123,8 +1131,9 @@ a:hover,a:active {
     position:relative;
     top:0;
     left:0;
-    width:100%;
-    overflow:hidden
+     width: 800px;
+    overflow: hidden;
+    margin: 0 auto;
 }
 .pattern-center::before {
     content:"";
@@ -1254,14 +1263,7 @@ a:hover,a:active {
     right:0;
     background-color:rgba(0,0,0,.3)
 }
-.pattern-attachment-img {
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center center;
-    background-origin:border-box;
-    width:100%;
-    height:400px
-}
+
 .pattern-center-sakura header.pattern-header {
     position:absolute;
     top:45%;
@@ -1645,6 +1647,7 @@ a:hover,a:active {
 .feature img {
     width:100px;
     height:100px;
+    object-fit:cover;
     border-radius:50%;
     padding:2px;
     border:1px solid #dadada;
@@ -7836,11 +7839,4 @@ td.hljs-ln-numbers {
 
 @media(max-width:1200px) {
     .toc {display: none;}
-}
-
-.hljs-ln-line:hover {
-    background-color: rgba(255, 255, 255, .1);
-}
-.hljs-ln-line.hljs-ln-n:hover{
-    background-color: rgba(0,0,0,0) !important;
 }
