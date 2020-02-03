@@ -2145,12 +2145,22 @@ i.iconfont.hotpost {
 }
 .entry-content a {
     color:#e67474;
-    text-decoration:underline dotted rgba(0,0,0,.1)
+    display: inline;
+    padding-bottom: 2px;
+    background-repeat: no-repeat;
+    background-size: 0 1px;
+    background-position: 50% 100%;
+    -webkit-transition: all .32s ease-in-out;
+    -moz-transition: all .32s ease-in-out;
+    -o-transition: all .32s ease-in-out;
+    transition: all .32s ease-in-out;
+    background-image: linear-gradient(to right, orange 0%, orange 50%);
 }
 .entry-content a:hover {
-    color:orange;
-    text-decoration:underline orange
+    color:orange !important;
+    background-size: 100% 1px;  
 }
+
 h1.entry-title {
     font-size:24px;
     font-weight:300
