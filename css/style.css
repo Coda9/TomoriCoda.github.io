@@ -5,7 +5,7 @@
     width: 400px;
 }
 #veditor {
-    background-image: url(https://cdn.jsdelivr.net/gh/TomoriCoda/CDN@1.5.8/other/comment-bgcoda.png);
+    background-image: url(https://isrror.coding.net/api/share/image/6476f246-fd32-4db1-81be-94ccee92cefe);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
@@ -7857,3 +7857,4 @@ td.hljs-ln-numbers {
 @media(max-width:1200px) {
     .toc {display: none;}
 }
+#emoji-b2233:not(.avoid){max-width: 8%;}
