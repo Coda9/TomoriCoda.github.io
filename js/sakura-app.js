@@ -1097,7 +1097,7 @@ var home = location.href,
           appKey: mashiro_option.v_appKey,
           path: window.location.pathname,
           visitor: true,
-          placeholder: '你是我一生只会遇见一次的惊喜 ...'
+          placeholder: '欢迎留言 | 支持Markdown语法...'
         })
       }
     },
