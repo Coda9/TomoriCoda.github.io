@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2020-02-07T17:13:42.386Z</updated>
+  <updated>2020-03-09T07:33:23.004Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>note-OS</title>
+    <link href="/2020/03/09/note-OS/"/>
+    <id>/2020/03/09/note-OS/</id>
+    <published>2020-03-09T03:15:26.000Z</published>
+    <updated>2020-03-09T07:33:23.004Z</updated>
+    
+    <summary type="html">
+    
+      操作系统学习笔记
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>我能留下什么呢？</title>
