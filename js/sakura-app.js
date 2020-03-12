@@ -439,7 +439,7 @@ function checkBgImgCookie () {
       $('.blank').css('background-color', 'rgba(255,255,255,1)')
       $('.pattern-center').removeClass('pattern-center').addClass('pattern-center-sakura')
       $('.headertop-bar').removeClass('headertop-bar').addClass('headertop-bar-sakura')
-    } else if (bgurl == 'https://api.shino.cc/bing/') {
+    } else if (bgurl == 'https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302 ') {
       mashiro_global.variables.skinSecter = true
       mashiro_global.variables.isNight = true
       $('#night-mode-cover').css('visibility', 'hidden')
@@ -503,7 +503,7 @@ $(document).ready(function () {
   changeBG('#pixiv-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/star.png')
   changeBG('#KAdots-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/point.png')
   changeBG('#totem-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/little-monster.png')
-  changeBGnoTrans('#bing-bg', 'https://api.shino.cc/bing/')
+  changeBGnoTrans('#bing-bg', 'https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302 ')
   $('.skin-menu #white-bg').click(function () {
     mashiro_global.variables.isNight = false
     $('#night-mode-cover').css('visibility', 'hidden')
