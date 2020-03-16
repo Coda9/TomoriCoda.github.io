@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2020-03-12T12:55:26.379Z</updated>
+  <updated>2020-03-14T15:56:57.628Z</updated>
   <id>/</id>
   
   <author>
@@ -17,11 +17,29 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>note-SQL</title>
+    <link href="/2020/03/14/note-SQL/"/>
+    <id>/2020/03/14/note-SQL/</id>
+    <published>2020-03-14T11:15:26.000Z</published>
+    <updated>2020-03-14T15:56:57.628Z</updated>
+    
+    <summary type="html">
+    
+      数据库学习笔记
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>A story that leads to the Antarctica</title>
     <link href="/2020/03/11/A-story-that-leads-to-the-Antarctica/"/>
     <id>/2020/03/11/A-story-that-leads-to-the-Antarctica/</id>
     <published>2020-03-11T06:52:37.000Z</published>
-    <updated>2020-03-12T12:55:26.379Z</updated>
+    <updated>2020-03-14T11:13:04.824Z</updated>
     
     <summary type="html">
     
@@ -35,7 +53,7 @@
     
     </summary>
     
-      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="生活" scheme="/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
   </entry>
