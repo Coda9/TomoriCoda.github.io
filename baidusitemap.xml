@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    
+    <loc>/2020/04/03/bangumi-list/</loc>
+    <lastmod>2020-04-03</lastmod>
+  </url>  <url>
+    <loc>/2020/02/08/about-blog/</loc>
+    <lastmod>2020-04-03</lastmod>
+  </url>  <url>
     <loc>/2020/03/14/note-SQL/</loc>
     <lastmod>2020-03-14</lastmod>
   </url>  <url>
@@ -10,9 +15,6 @@
   </url>  <url>
     <loc>/2020/03/09/note-OS/</loc>
     <lastmod>2020-03-12</lastmod>
-  </url>  <url>
-    <loc>/2020/02/08/about-blog/</loc>
-    <lastmod>2020-02-07</lastmod>
   </url>  <url>
     <loc>/2019/06/05/pixiv/</loc>
     <lastmod>2020-02-07</lastmod>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2020-03-14T15:56:57.628Z</updated>
+  <updated>2020-04-03T15:25:28.732Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>动画排行 个人向</title>
+    <link href="/2020/04/03/bangumi-list/"/>
+    <id>/2020/04/03/bangumi-list/</id>
+    <published>2020-04-03T14:01:07.000Z</published>
+    <updated>2020-04-03T15:25:28.732Z</updated>
+    
+    <summary type="html">
+    
+      动画排行(按评分)
+    
+    </summary>
+    
+      <category term="随想" scheme="/categories/%E9%9A%8F%E6%83%B3/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>note-SQL</title>
@@ -81,7 +99,7 @@
     <link href="/2020/02/08/about-blog/"/>
     <id>/2020/02/08/about-blog/</id>
     <published>2020-02-07T17:02:07.000Z</published>
-    <updated>2020-02-07T17:13:42.386Z</updated>
+    <updated>2020-04-03T15:24:28.232Z</updated>
     
     <summary type="html">
     

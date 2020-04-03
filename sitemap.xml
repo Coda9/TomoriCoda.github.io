@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/2020/04/03/bangumi-list/</loc>
+    
+    <lastmod>2020-04-03T15:25:28.732Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>/2020/02/08/about-blog/</loc>
+    
+    <lastmod>2020-04-03T15:24:28.232Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>/2020/03/14/note-SQL/</loc>
     
     <lastmod>2020-03-14T15:56:57.628Z</lastmod>
@@ -40,13 +54,6 @@
     <loc>/book/index.html</loc>
     
     <lastmod>2020-03-09T09:33:44.973Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>/2020/02/08/about-blog/</loc>
-    
-    <lastmod>2020-02-07T17:13:42.386Z</lastmod>
     
   </url>
   
@@ -163,14 +170,14 @@
   </url>
   
   <url>
-    <loc>/rss/index.html</loc>
+    <loc>/tags/index.html</loc>
     
     <lastmod>2019-05-26T23:48:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>/tags/index.html</loc>
+    <loc>/rss/index.html</loc>
     
     <lastmod>2019-05-26T23:48:36.000Z</lastmod>
     
