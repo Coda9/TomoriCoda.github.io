@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/bangumi/index.html</loc>
+    
+    <lastmod>2020-04-07T14:10:32.729Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>/2020/04/03/bangumi-list/</loc>
     
     <lastmod>2020-04-06T14:25:31.984Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>/2020/02/08/about-blog/</loc>
     
     <lastmod>2020-04-03T15:24:28.232Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>/2020/03/11/A-story-that-leads-to-the-Antarctica/</loc>
-    
-    <lastmod>2020-03-14T11:13:04.824Z</lastmod>
     
   </url>
   
@@ -177,14 +177,14 @@
   </url>
   
   <url>
-    <loc>/rss/index.html</loc>
+    <loc>/video/index.html</loc>
     
     <lastmod>2019-05-26T23:48:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>/video/index.html</loc>
+    <loc>/rss/index.html</loc>
     
     <lastmod>2019-05-26T23:48:36.000Z</lastmod>
     

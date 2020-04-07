@@ -1,3 +1,7 @@
+@font-face{
+    font-family:'bzsf';
+    src:url('https://cdn.jsdelivr.net/gh/TomoriCoda/CDN@1.6.5.1/白舟隼风书体.ttf');
+}
 .aplayer-container {
     position: absolute;
     bottom: 0;
@@ -4144,7 +4148,7 @@ li.feature-2 {
 }
 .header-info p {
     margin:0;
-    font-family:'Ubuntu',sans-serif;
+    font-family:'bzsf','Comic Sans MS','Microsoft Yahei','Ubuntu',sans-serif;
     font-weight:700
 }
 .top-social {
@@ -5835,20 +5839,12 @@ button.botui-actions-buttons-button {
     text-decoration-line:none
 }
 .logolink .sakurasono {
-    background-color:rgba(255,255,255,.5);
-    border-radius:5px;
-    color:#464646;
-    height:auto;
-    line-height:25px;
-    margin-right:0;
-    padding-bottom:0;
-    padding-top:1px;
-    text-size-adjust:100%;
-    width:auto
+    font-family: 'bzsf','Comic Sans MS','Consolas','Monaco'; 
+    font-weight: normal;
+    font-size: 28px !important;
 }
 .logolink a:hover .sakurasono {
-    background-color:orange;
-    color:#fff
+    color:orange
 }
 .logolink a:hover .shironeko,.logolink a:hover rt {
     color:orange
@@ -7224,6 +7220,7 @@ to {
 }
 .the-feature img {
     height:160px;
+    object-fit: cover;
     width:257px
 }
 .the-feature.from_left_and_right {
