@@ -163,6 +163,13 @@
   </url>
   
   <url>
+    <loc>/tags/index.html</loc>
+    
+    <lastmod>2019-05-26T23:48:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>/rss/index.html</loc>
     
     <lastmod>2019-05-26T23:48:36.000Z</lastmod>
@@ -171,13 +178,6 @@
   
   <url>
     <loc>/video/index.html</loc>
-    
-    <lastmod>2019-05-26T23:48:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>/tags/index.html</loc>
     
     <lastmod>2019-05-26T23:48:36.000Z</lastmod>
     

@@ -9,28 +9,26 @@
     width: 400px;
 }
 table {
-    width: 100%; /*表格宽度*/
+    width: 99%; /*表格宽度*/
     max-width: 65em; /*表格最大宽度，避免表格过宽*/
-    border: 1px solid #dedede; /*表格外边框设置*/
+    border: 1px solid #1d1f21; /*表格外边框设置*/
     margin: 15px auto; /*外边距*/
     border-collapse: collapse; /*使用单一线条的边框*/
     empty-cells: show; /*单元格无内容依旧绘制边框*/
 }
 table th,
 table td {
-  height: 35px; /*统一每一行的默认高度*/
-  border: 1px solid #dedede; /*内部边框样式*/
+  height: 30px; /*统一每一行的默认高度*/
+  border: 1px solid #1d1f21; /*内部边框样式*/
   padding: 0 10px; /*内边距*/
 }
 
 table th {
     font-weight: bold; /*加粗*/
-    text-align: center !important; /*内容居中，加上 !important 避免被 Markdown 样式覆盖*/
+    text-align: center; /*内容居中，加上 !important 避免被 Markdown 样式覆盖*/
     background: rgba(158,188,226,0.2); /*背景色*/
 }
-table tr:hover {
-    background: #efefef; 
-}
+
 #veditor {
     background-image: url(https://isrror.coding.net/api/share/image/6476f246-fd32-4db1-81be-94ccee92cefe);
     background-size: contain;
@@ -803,10 +801,6 @@ svg:not(:root) {
 figure {
     margin:1em 40px
 }
-hr {
-    box-sizing:content-box;
-    height:0
-}
 pre {
     overflow:auto
 }
@@ -982,12 +976,6 @@ blockquote:before,blockquote:after,q:before,q:after {
 }
 blockquote,q {
     quotes:"" ""
-}
-hr {
-    background-color:#ccc;
-    border:0;
-    height:1px;
-    margin-bottom:1.5em
 }
 ul,ol {
     margin:0 0 1.5em 3em
@@ -1449,7 +1437,6 @@ a:hover,a:active {
 .site-top .lower-cantiner {
     position:absolute;
     left:50%;
-    min-width:758.4px;
     pointer-events:none
 }
 .site-top .lower {
@@ -2230,7 +2217,6 @@ h1.entry-title {
     background:none
 }
 .entry-content hr:before {
-    content:'...';
     display:inline-block;
     margin-left:.6em;
     color:rgba(0,0,0,.8);
@@ -7878,3 +7864,10 @@ td.hljs-ln-numbers {
     .toc {display: none;}
 }
 #emoji-b2233:not(.avoid){max-width: 8%;}
+
+hr {
+    height: 3px !important;
+    border: none !important;
+    background-color: #bfbfbf !important;
+    background-image: repeating-linear-gradient(-45deg, #fff, #fff 4px, transparent 4px, transparent 8px) !important;
+}
