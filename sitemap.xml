@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/2019/06/05/pixiv/</loc>
+    
+    <lastmod>2020-04-09T08:07:03.808Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>/bangumi/index.html</loc>
     
     <lastmod>2020-04-07T14:10:32.729Z</lastmod>
@@ -54,13 +61,6 @@
     <loc>/book/index.html</loc>
     
     <lastmod>2020-03-09T09:33:44.973Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>/2019/06/05/pixiv/</loc>
-    
-    <lastmod>2020-02-07T14:34:12.932Z</lastmod>
     
   </url>
   
@@ -170,6 +170,13 @@
   </url>
   
   <url>
+    <loc>/rss/index.html</loc>
+    
+    <lastmod>2019-05-26T23:48:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>/tags/index.html</loc>
     
     <lastmod>2019-05-26T23:48:36.000Z</lastmod>
@@ -178,13 +185,6 @@
   
   <url>
     <loc>/video/index.html</loc>
-    
-    <lastmod>2019-05-26T23:48:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>/rss/index.html</loc>
     
     <lastmod>2019-05-26T23:48:36.000Z</lastmod>
     
