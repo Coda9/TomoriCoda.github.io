@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/2019/10/22/about-youth-romantic-comedy/</loc>
+    
+    <lastmod>2020-04-09T10:08:17.940Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>/2020/02/08/about-blog/</loc>
+    
+    <lastmod>2020-04-09T10:08:14.358Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>/2019/06/02/hello-world/</loc>
     
     <lastmod>2020-04-09T10:06:12.454Z</lastmod>
@@ -51,13 +65,6 @@
   </url>
   
   <url>
-    <loc>/2020/02/08/about-blog/</loc>
-    
-    <lastmod>2020-04-09T08:41:32.956Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>/bangumi/index.html</loc>
     
     <lastmod>2020-04-07T14:10:32.729Z</lastmod>
@@ -103,13 +110,6 @@
     <loc>/2019/06/15/emojis-plug-in-unit-for-bilibili/</loc>
     
     <lastmod>2020-02-07T13:09:08.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>/2019/10/22/about-youth-romantic-comedy/</loc>
-    
-    <lastmod>2020-02-07T13:07:30.454Z</lastmod>
     
   </url>
   
@@ -170,14 +170,14 @@
   </url>
   
   <url>
-    <loc>/tags/index.html</loc>
+    <loc>/video/index.html</loc>
     
     <lastmod>2019-05-26T23:48:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>/video/index.html</loc>
+    <loc>/tags/index.html</loc>
     
     <lastmod>2019-05-26T23:48:36.000Z</lastmod>
     
