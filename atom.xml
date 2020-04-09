@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2020-04-06T14:25:31.984Z</updated>
+  <updated>2020-04-09T08:42:31.010Z</updated>
   <id>/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="/2020/04/03/bangumi-list/"/>
     <id>/2020/04/03/bangumi-list/</id>
     <published>2020-04-03T14:01:07.000Z</published>
-    <updated>2020-04-06T14:25:31.984Z</updated>
+    <updated>2020-04-09T08:42:31.010Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,7 @@
     
     </summary>
     
-      <category term="随想" scheme="/categories/%E9%9A%8F%E6%83%B3/"/>
+      <category term="动画" scheme="/categories/%E5%8A%A8%E7%94%BB/"/>
     
     
   </entry>
@@ -75,7 +75,7 @@
     <link href="/2020/02/08/about-blog/"/>
     <id>/2020/02/08/about-blog/</id>
     <published>2020-02-07T17:02:07.000Z</published>
-    <updated>2020-04-03T15:24:28.232Z</updated>
+    <updated>2020-04-09T08:41:32.956Z</updated>
     
     <summary type="html">
     
@@ -83,7 +83,7 @@
     
     </summary>
     
-      <category term="随想" scheme="/categories/%E9%9A%8F%E6%83%B3/"/>
+      <category term="生活" scheme="/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
       <category term="随想" scheme="/tags/%E9%9A%8F%E6%83%B3/"/>
@@ -191,7 +191,7 @@
     <link href="/2019/06/05/pixiv/"/>
     <id>/2019/06/05/pixiv/</id>
     <published>2019-06-05T08:15:27.000Z</published>
-    <updated>2020-04-09T08:07:03.808Z</updated>
+    <updated>2020-04-09T09:05:07.184Z</updated>
     
     <summary type="html">
     
@@ -202,26 +202,6 @@
       <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="pixiv" scheme="/tags/pixiv/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>封面230部动画名单</title>
-    <link href="/2019/06/03/bangumi-list-of-cover-video/"/>
-    <id>/2019/06/03/bangumi-list-of-cover-video/</id>
-    <published>2019-06-03T12:10:15.000Z</published>
-    <updated>2020-02-07T13:07:59.700Z</updated>
-    
-    <summary type="html">
-    
-      230部
-    
-    </summary>
-    
-      <category term="生活" scheme="/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
   </entry>
   
   <entry>
@@ -229,7 +209,7 @@
     <link href="/2019/06/02/hello-world/"/>
     <id>/2019/06/02/hello-world/</id>
     <published>2019-06-02T12:41:00.000Z</published>
-    <updated>2020-02-07T13:09:56.953Z</updated>
+    <updated>2020-04-09T08:42:37.426Z</updated>
     
     <summary type="html">
     
@@ -237,7 +217,7 @@
     
     </summary>
     
-      <category term="随想" scheme="/categories/%E9%9A%8F%E6%83%B3/"/>
+      <category term="生活" scheme="/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
   </entry>
