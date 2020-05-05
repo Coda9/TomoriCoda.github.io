@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/2020/05/03/bgmtop/</loc>
+    
+    <lastmod>2020-05-05T04:41:11.186Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>/resource/index.html</loc>
+    
+    <lastmod>2020-05-05T04:37:13.507Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>/2020/04/03/bangumi-list/</loc>
     
     <lastmod>2020-05-04T09:55:04.238Z</lastmod>
@@ -9,23 +23,9 @@
   </url>
   
   <url>
-    <loc>/resource/index.html</loc>
-    
-    <lastmod>2020-05-04T09:30:48.726Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>/friends/index.html</loc>
     
     <lastmod>2020-05-04T09:26:40.616Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>/2020/05/03/bgmtop/</loc>
-    
-    <lastmod>2020-05-03T16:02:20.676Z</lastmod>
     
   </url>
   
