@@ -429,6 +429,22 @@ var _hmt = _hmt || [];
   &lt;/url&gt;  &lt;url&gt;
 </code></pre>
 <p><del>~好了大功告成！</del>~</p>
+<h3 id="Question-2"><a href="#Question-2" class="headerlink" title="Question 2"></a>Question 2</h3><p>在提交百度链接的时候出现了问题，提示链接失败，我的博客文章链接格式都是<code>域名/时间/文章名</code>，这可犯了难…<br>柳暗花明又一村，偶然发现在xml中加上index.html后缀可以正常提交。（原理尚不明确）nice，这就好办了！</p>
+<h3 id="Answer-2"><a href="#Answer-2" class="headerlink" title="Answer 2"></a>Answer 2</h3><p>同样打开baidusitemap.xml文件，增加<code>end</code>函数</p>
+<pre><code class="baidusitemap.esj">&lt;%
+  var baiduUrl = config.url
+
+  if (config.baidusitemap.url) {
+    baiduUrl = config.baidusitemap.url
+  }
+
+  var end = &quot;index.html&quot;  //增加
+  var url = baiduUrl + config.root;
+  posts.forEach(function(post){
+  if(post.categories){
+%&gt;  &lt;url&gt;
+    &lt;loc&gt;&lt;%- encodeURI(url + post.path + end) %&gt;&lt;/loc&gt; //修改
+</code></pre>
 
         </div>
         <p>Q.E.D. <i class="fa fa-meetup" aria-hidden="true" style="color:#d34836"></i></p>
