@@ -494,11 +494,11 @@ $(document).ready(function () {
       setCookie('bgImgSetting', url, 30)
     })
   }
-  changeBG('#sakura-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/sakura.png')
-  changeBG('#gribs-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/plaid.jpg')
-  changeBG('#pixiv-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/star.png')
-  changeBG('#KAdots-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/point.png')
-  changeBG('#totem-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/little-monster.png')
+  changeBG('#sakura-bg', 'https://cdn.jsdelivr.net/gh/TomoriCoda/CDN/img/themebg/sakura.png')
+  changeBG('#gribs-bg', 'https://cdn.jsdelivr.net/gh/TomoriCoda/CDN/img/themebg/plaid.jpg')
+  changeBG('#pixiv-bg', 'https://cdn.jsdelivr.net/gh/TomoriCoda/CDN/img/themebg/star.png')
+  changeBG('#KAdots-bg', 'https://cdn.jsdelivr.net/gh/TomoriCoda/CDN/img/themebg/point.png')
+  changeBG('#totem-bg', 'https://cdn.jsdelivr.net/gh/TomoriCoda/CDN/img/themebg/little-monster.png')
   changeBGnoTrans('#bing-bg', 'https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302 ')
   $('.skin-menu #white-bg').click(function () {
     mashiro_global.variables.isNight = false
@@ -512,13 +512,13 @@ $(document).ready(function () {
   })
   $('.skin-menu #dark-bg').click(function () {
     mashiro_global.variables.isNight = true
-    $('body').css('background-image', 'url(https://cdn.jsdelivr.net/gh/TomoriCoda/CDN@1.6.4.8/themebg/dark.png)')
+    $('body').css('background-image', 'url(https://cdn.jsdelivr.net/gh/TomoriCoda/CDN/themebg/dark.png)')
     $('.blank').css('background-color', 'rgba(255,255,255,0)')
     $('#night-mode-cover').css('visibility', 'visible')
     $('#banner_wave_1').addClass('banner_wave_hide_fit_skin')
     $('#banner_wave_2').addClass('banner_wave_hide_fit_skin')
     closeSkinMenu()
-  setCookie('bgImgSetting','https://cdn.jsdelivr.net/gh/TomoriCoda/CDN@1.6.4.8/themebg/dark.png',30)
+  setCookie('bgImgSetting','https://cdn.jsdelivr.net/gh/TomoriCoda/CDN/themebg/dark.png',30)
   })
 
   function closeSkinMenu () {

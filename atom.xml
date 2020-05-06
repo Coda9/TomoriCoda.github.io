@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tomori.xyz/"/>
-  <updated>2020-05-05T13:04:45.014Z</updated>
+  <updated>2020-05-06T05:18:01.386Z</updated>
   <id>https://tomori.xyz/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Sakura的baidusitemap食用指北</title>
+    <link href="https://tomori.xyz/2020/05/06/about-baidusitemap/"/>
+    <id>https://tomori.xyz/2020/05/06/about-baidusitemap/</id>
+    <published>2020-05-06T04:40:58.000Z</published>
+    <updated>2020-05-06T05:18:01.386Z</updated>
+    
+    <summary type="html">
+    
+      百度Sitemap提交中遇到的问题
+    
+    </summary>
+    
+      <category term="技术" scheme="https://tomori.xyz/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>bangumi动画Top100</title>
