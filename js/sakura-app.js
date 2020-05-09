@@ -171,18 +171,17 @@ function imgError (ele, type) {
       if (ele.src.includes('https://cn.gravatar.com/avatar')) {
         ele.src = ele.src.replace('https://cn.gravatar.com/avatar/', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/gravatar.jpg')
       } else {
-        ele.src = 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/default_avatar.jpg'
+        ele.src = 'https://cdn.jsdelivr.net/gh/tomoricoda/cdn/other/default_avatar.jpg'
       }
       break
     case 2:
-      ele.src = 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/default_gavatar.jpg'
+      ele.src = 'https://cdn.jsdelivr.net/gh/tomoricoda/cdn/other/default_gavatar.jpg'
       break
     case 3:
-
-      ele.src = 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/image-404.png'
+      ele.src = 'https://cdn.jsdelivr.net/gh/tomoricoda/cdn/other/image-404.png'
       break
     default:
-      ele.src = 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/image-404.png'
+      ele.src = 'https://cdn.jsdelivr.net/gh/tomoricoda/cdn/other/image-404.png'
   }
 }
 mashiro_global.post_list_show_animation = new function () {
@@ -1595,9 +1594,8 @@ $(function () {
   $(document).on('click', '.specsZan', function () {
     $(this).postLike()
   })
-  console.log('%c Mashiro %c', 'background:#24272A; color:#ffffff', '', 'https://2heng.xin/')
-  console.log('%c hojun %c', 'background:#24272A; color:#ffffff', '', 'https://www.hojun.cn/')
-  console.log('%c Github %c', 'background:#24272A; color:#ffffff', '', 'https://github.com/honjun/hexo-theme-sakura')
+  console.log('这是一个彩蛋~')
+  console.log('%c Sakura %c', 'background:#24272A; color:#ffffff', '', 'https://github.com/honjun/hexo-theme-sakura')
 })
 var isWebkit = navigator.userAgent.toLowerCase().indexOf('webkit') > -1,
   isOpera = navigator.userAgent.toLowerCase().indexOf('opera') > -1,
