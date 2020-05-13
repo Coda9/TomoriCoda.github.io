@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://tomori.xyz/arttalk/index.html</loc>
+    <loc>https://tomori.xyz/2020/05/06/about-baidusitemap/</loc>
     
-    <lastmod>2020-05-12T09:27:43.310Z</lastmod>
+    <lastmod>2020-05-13T12:17:51.195Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://tomori.xyz/bangumis/index.html</loc>
+    
+    <lastmod>2020-05-13T11:02:29.791Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://tomori.xyz/friends/index.html</loc>
     
-    <lastmod>2020-05-12T08:33:17.161Z</lastmod>
+    <lastmod>2020-05-13T10:16:02.062Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://tomori.xyz/arttalk/index.html</loc>
+    
+    <lastmod>2020-05-12T10:03:13.708Z</lastmod>
     
   </url>
   
@@ -19,13 +33,6 @@
     <loc>https://tomori.xyz/resource/index.html</loc>
     
     <lastmod>2020-05-09T12:59:15.796Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://tomori.xyz/2020/05/06/about-baidusitemap/</loc>
-    
-    <lastmod>2020-05-07T08:41:16.425Z</lastmod>
     
   </url>
   

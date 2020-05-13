@@ -722,7 +722,7 @@ to {
 body {
     margin:0;
     font:300 17px;
-    text-shadow:0 0 1px rgba(0,0,0,.1)
+    text-shadow:0 0 1px rgba(0,0,0,0)
 }
 input:-webkit-autofill {
     -webkit-box-shadow:0 0 0 1000px white inset

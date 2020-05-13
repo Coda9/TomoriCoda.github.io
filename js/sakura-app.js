@@ -493,11 +493,11 @@ $(document).ready(function () {
       setCookie('bgImgSetting', url, 30)
     })
   }
-  changeBG('#sakura-bg', 'https://cdn.jsdelivr.net/gh/TomoriCoda/CDN/img/themebg/sakura.png')
-  changeBG('#gribs-bg', 'https://cdn.jsdelivr.net/gh/TomoriCoda/CDN/img/themebg/plaid.jpg')
-  changeBG('#pixiv-bg', 'https://cdn.jsdelivr.net/gh/TomoriCoda/CDN/img/themebg/star.png')
-  changeBG('#KAdots-bg', 'https://cdn.jsdelivr.net/gh/TomoriCoda/CDN/img/themebg/point.png')
-  changeBG('#totem-bg', 'https://cdn.jsdelivr.net/gh/TomoriCoda/CDN/img/themebg/little-monster.png')
+  changeBG('#sakura-bg', 'https://cdn.jsdelivr.net/gh/TomoriCoda/CDN/themebg/sakura.png')
+  changeBG('#gribs-bg', 'https://cdn.jsdelivr.net/gh/TomoriCoda/CDN/themebg/plaid.jpg')
+  changeBG('#pixiv-bg', 'https://cdn.jsdelivr.net/gh/TomoriCoda/CDN/themebg/star.png')
+  changeBG('#KAdots-bg', 'https://cdn.jsdelivr.net/gh/TomoriCoda/CDN/themebg/point.png')
+  changeBG('#totem-bg', 'https://cdn.jsdelivr.net/gh/TomoriCoda/CDN/themebg/little-monster.png')
   changeBGnoTrans('#bing-bg', 'https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302 ')
   $('.skin-menu #white-bg').click(function () {
     mashiro_global.variables.isNight = false

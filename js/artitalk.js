@@ -1,10 +1,9 @@
 
+var img="https://cdn.jsdelivr.net/gh/TomoriCoda/CDN/custom/landu.jpg";
+var username="coda";
 var version="v1.1.8";
 (function() {
   'use strict';
-
-var img="5";
-var username="Coda";
 
   var root = typeof window === 'object' ? window : {};
   var NODE_JS = !root.JS_SHA1_NO_NODE_JS && typeof process === 'object' && process.versions && process.versions.node;
@@ -575,12 +574,11 @@ var string="<ul class=\"cbp_tmtimeline\" id=\"maina\" pagesize="+per+">";
           location.reload();
       })
   }
-var appID="VfcdwlqxhkescFqrDUSf6JKn-MdYXbMMI";
-var appKEY="tYKXgIHtbz1IBOddovw3yuev";
+
   function seecontent(){
       AV.init({
-          appId: appID,
-          appKey: appKEY,
+          appId: "7VLP8Pnn3p0zkOdzHbSmTv0o-MdYXbMMI",
+          appKey: "zyEJ2BwMqxS9mICwXINvApl9",
       });
       var currentUser = AV.User.current();
       if (currentUser) {
