@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tomori.xyz/resource/index.html</loc>
+    
+    <lastmod>2020-05-14T09:44:24.685Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://tomori.xyz/2020/05/06/about-baidusitemap/</loc>
     
     <lastmod>2020-05-13T12:17:51.195Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://tomori.xyz/arttalk/index.html</loc>
     
     <lastmod>2020-05-12T10:03:13.708Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://tomori.xyz/resource/index.html</loc>
-    
-    <lastmod>2020-05-09T12:59:15.796Z</lastmod>
     
   </url>
   
