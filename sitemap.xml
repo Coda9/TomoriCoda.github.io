@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tomori.xyz/friends/index.html</loc>
+    
+    <lastmod>2020-05-17T07:49:08.104Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://tomori.xyz/resource/index.html</loc>
     
     <lastmod>2020-05-17T04:44:59.686Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>https://tomori.xyz/bangumis/index.html</loc>
     
     <lastmod>2020-05-13T11:02:29.791Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://tomori.xyz/friends/index.html</loc>
-    
-    <lastmod>2020-05-13T10:16:02.062Z</lastmod>
     
   </url>
   
