@@ -1089,9 +1089,14 @@ var home = location.href,
           el: '#vcomments',
           appId: mashiro_option.v_appId,
           appKey: mashiro_option.v_appKey,
-          path: window.location.pathname,
+          verify: "<%= theme.v_verify %>",
           visitor: true,
-          placeholder: '欢迎留言 | 支持Markdown语法...'
+          recordIP: "<%= theme.v_recordIP %>",
+          requiredFields: ['nick','mail'],
+          enableQQ: true,
+          path: window.location.pathname,
+          master: ["d7b061e30f7d6a6bd02449ea33caf8b1"],
+          placeholder: "昵称填写QQ号会有惊喜哦~"
         })
       }
     },
