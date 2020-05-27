@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.tomori.xyz/friends/index.html</loc>
+    <loc>https://www.tomori.xyz/resource/index.html</loc>
     
-    <lastmod>2020-05-17T07:49:08.104Z</lastmod>
+    <lastmod>2020-05-27T12:42:38.055Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.tomori.xyz/resource/index.html</loc>
+    <loc>https://www.tomori.xyz/friends/index.html</loc>
     
-    <lastmod>2020-05-17T04:44:59.686Z</lastmod>
+    <lastmod>2020-05-17T07:49:08.104Z</lastmod>
     
   </url>
   
@@ -184,14 +184,14 @@
   </url>
   
   <url>
-    <loc>https://www.tomori.xyz/tags/index.html</loc>
+    <loc>https://www.tomori.xyz/video/index.html</loc>
     
     <lastmod>2019-05-26T23:48:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.tomori.xyz/video/index.html</loc>
+    <loc>https://www.tomori.xyz/tags/index.html</loc>
     
     <lastmod>2019-05-26T23:48:36.000Z</lastmod>
     

@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="/css/insight.css" media="all">
   <link rel="stylesheet" href="/css/jquery.fancybox.min.css" media="all">
   <link rel="stylesheet" href="/css/zoom.css" media="all">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="all">
+  <!--link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="all"-->
 
   <!-- <style type="text/css">html {-webkit-filter: grayscale(100%);}</style> 全站黑白色 2020.4.4 全国哀悼日
   <style> 
@@ -445,7 +445,7 @@ var _hmt = _hmt || [];
     &lt;loc&gt;&lt;%- encodeURI(url + post.path) %&gt;&lt;/loc&gt;
 </code></pre>
 <p>链接直指config文件，于是直接去<code>_config.yml</code>中找到url，改成自己站点的链接，如：</p>
-<p>url: <a href="https://tomori.xyz">https://tomori.xyz</a></p>
+<p>url: <a href="https://tomori.xyz" target="_blank" rel="noopener">https://tomori.xyz</a></p>
 <p>再次生成页面<code>hexo g</code></p>
 <pre><code class="xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;urlset xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt;
