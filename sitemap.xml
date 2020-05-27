@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.tomori.xyz/2020/05/03/bgmtop/</loc>
+    
+    <lastmod>2020-05-27T13:05:56.810Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.tomori.xyz/resource/index.html</loc>
     
     <lastmod>2020-05-27T12:42:38.055Z</lastmod>
@@ -121,13 +128,6 @@
   </url>
   
   <url>
-    <loc>https://www.tomori.xyz/2020/05/03/bgmtop/</loc>
-    
-    <lastmod>2020-05-05T13:04:45.014Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.tomori.xyz/2020/04/03/bangumi-list/</loc>
     
     <lastmod>2020-05-05T13:04:04.810Z</lastmod>
@@ -184,14 +184,14 @@
   </url>
   
   <url>
-    <loc>https://www.tomori.xyz/video/index.html</loc>
+    <loc>https://www.tomori.xyz/tags/index.html</loc>
     
     <lastmod>2019-05-26T23:48:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.tomori.xyz/tags/index.html</loc>
+    <loc>https://www.tomori.xyz/video/index.html</loc>
     
     <lastmod>2019-05-26T23:48:36.000Z</lastmod>
     
